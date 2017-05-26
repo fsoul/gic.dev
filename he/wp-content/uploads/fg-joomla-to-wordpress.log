@@ -1,0 +1,25 @@
+=== START import 2016-02-29 07:53:51 ===
+Содержимое WordPress удалено
+[COUNT-TOTAL]53 elements to import
+[COUNT]10 categories processed
+10 категорий перенесено
+[COUNT]10 posts processed
+[COUNT]10 posts processed
+[COUNT]10 posts processed
+[COUNT]10 posts processed
+[COUNT]3 posts processed
+[COUNT]0 posts processed
+43 материалов перенесено
+70 медиафайлов перенесено
+[COUNT]1 category processed
+1 ссылки категории импортируемых
+[COUNT]0 web links processed
+0 веб-ссылки импортированы
+Не забудьте модифицировать внутренние линки.
+IMPORT COMPLETE
+=== END import 2016-02-29 07:54:11 ===
+
+=== START modify_links 2016-02-29 07:54:19 ===
+25 линков модифицировано
+=== END modify_links 2016-02-29 07:54:20 ===
+

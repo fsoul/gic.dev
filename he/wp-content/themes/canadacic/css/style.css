@@ -1,0 +1,1084 @@
+@charset "UTF-8";
+@font-face {
+  font-family: robotomedium;
+  src: url(../Fonts/Roboto-Medium.ttf);
+}
+
+@font-face {
+  font-family: robotoregular;
+  src: url(../Fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: robotobold;
+  src: url(../Fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+  font-family: robotoblack;
+  src: url(../Fonts/Roboto-Black.ttf);
+}
+
+@font-face {
+  font-family: robotoitalic;
+  src: url(../Fonts/Roboto-Italic.ttf);
+}
+
+body {
+  font-family: sans-serif;
+}
+.imigrationtext {
+  border-bottom: 1px solid #d4d4d4;
+}
+
+.imigrationtext .imtextcontainer {
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 50px 15px 0 15px;
+}
+
+.imigrationtext .imtextcontainer h1 {
+  font-size: 24px;
+  font-family: sans-serif;
+}
+
+.imigrationtext .imtextcontainer p {
+  font-size: 14px;
+}
+.imtextcontainer p{
+	margin-top: 10px;
+}
+
+.container h1 {
+  font-size: 24px;
+  font-family: sans-serif;
+}
+
+a {
+  color: #2a8cd6;
+}
+
+button:hover{
+  background: #0697bf;
+}
+button, .wpcf7-submit{
+    height: 50px;
+  width: 80%;
+  background-color: #c12d58;
+  border: 2px solid #0c6c98;
+  border-radius: 5px;
+  color: white;
+  padding: 0 20px;
+  font-size: 18px;
+  font-family: sans-serif;
+  transition: all 0s ease 0s, all 0.6s ease 0s, all 0s ease-in-out 0s;  
+}
+
+.canadaprograms {
+  margin-top: 20px;
+  border: 1px solid #eeeeee;
+  padding-bottom: 20px;
+  cursor: pointer;
+}
+
+.canadaprograms img {
+  width: 100%;
+}
+
+.canadaprograms h1 {
+  font-family: sans-serif;
+  font-size: 18px;
+  padding-left: 13px;
+  transition: .4s;
+}
+
+.canadaprograms p {
+  font-size: 14px;
+  padding: 0 5px 0 13px;
+}
+
+.canadaprograms a {
+  padding-left: 15px;
+  font-family: sans-serif;
+  color: #0d82d3;
+}
+
+.canadaprograms:hover h1 {
+  color: #0d82d3;
+}
+
+.forborder {
+  border-bottom: 1px solid #d4d4d4;
+  padding-bottom: 30px;
+  padding: 50px 0 25px 0;
+}
+
+/* Главная */
+#indexinfo .row {
+  padding-bottom: 25px;
+}
+
+#indexinfo .col-md-3 img {
+  margin: 20px 0 15px 0;
+}
+
+#indexinfo .col-md-9 h1 {
+  font-family: sans-serif;
+}
+
+#indexinfo .col-md-9 p {
+  color: #262b30;
+}
+
+#indexinfo .col-md-9 button:hover{
+  background: #0697bf;
+  
+}
+#indexinfo .col-md-9 button {
+  height: 50px;
+  width: 70%;
+  background-color: #0c6c98;
+  border: 2px solid #c12d58;
+  border-radius: 5px;
+  color: white;
+  padding: 0 20px;
+  font-size: 18px;
+  font-family: sans-serif;
+  transition: all 0s ease 0s, all 0.6s ease 0s, all 0s ease-in-out 0s; 
+  direction: ltr; 
+}
+
+/*#indexinfo .col-md-9 button:before {
+  content: url(../img/strelkabutton.png);
+  padding: 0 20px 0 10px;
+}*/
+
+#indexinfo .about {
+  padding-top: 20px;
+}
+
+#indexinfo .about .row {
+  border: none;
+}
+
+#indexinfo .about .row .col-md-3 h1 {
+  font-family: sans-serif;
+  font-size: 17px;
+}
+
+#indexinfo .about .row .col-md-3 p {
+  font-size: 13px;
+  font-family: sans-serif;
+}
+
+#indexinfo .about .row .col-md-3 .aboutimg {
+  height: 100%;
+  padding-bottom: 55px;
+  padding-right: 10px;
+  float: left;
+}
+
+#indexinfo .about .row .col-md-3 .aboutimg img {
+  margin-top: 15px;
+}
+
+#indexinfo .uslugi {
+  background-image: url(../img/backgroundindex.png);
+  background-size: cover;
+}
+
+#indexinfo .uslugi h1 {
+  font-size: 25px;
+  font-family: sans-serif;
+  color: #2a2426;
+  padding-left: 15px;
+}
+
+#indexinfo .uslugi .col-md-3 {
+  height: 200px;
+  cursor: pointer;
+  transition: 1s;
+  position: relative;
+  margin-bottom: 15px;
+}
+
+#indexinfo .uslugi .col-md-3 img {
+  border-radius: 3px;
+}
+
+#indexinfo .uslugi .col-md-3 .uslugiimg {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#indexinfo .uslugi .col-md-3 .blockoverlay {
+  position: absolute;
+  width: calc(100% - 30px);
+  height: 100%;
+  top: 0;
+  left: 15px;
+  opacity: 0;
+  transition: .2s;
+  border-radius: 3px;
+}
+
+#indexinfo .uslugi .col-md-3 .containertext {
+  position: absolute;
+  width: 90%;
+  margin: 0 auto;
+  top: 0;
+  right: 30px;
+}
+
+#indexinfo .uslugi .col-md-3 .containertext p {
+  font-family: sans-serif;
+  color: white;
+  font-size: 18px;
+  width: 90%;
+  line-height: 20px;
+}
+
+#indexinfo .uslugi .col-md-3:hover .blockoverlay {
+  opacity: 1;
+  background: #0d82d3;
+}
+
+#indexinfo .uslugiprograms {
+  padding-bottom: 95px;
+}
+
+#indexinfo .uslugiprograms .container .row .col-md-3 {
+  height: auto;
+  
+}
+
+#indexinfo .uslugiprograms .container .row .col-md-3 img {
+  width: 100%;
+  margin-top: 0;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
+#indexinfo .uslugiprograms .container .row .col-md-3 .blockoverlay {
+  text-align: center;
+  height: 73%;
+  background: rgba(13, 130, 211, 0.32);
+  transition: .4s;
+}
+
+#indexinfo .uslugiprograms .container .row .col-md-3 .blockoverlay a {
+  visibility: hidden;
+  color: white;
+  font-family: sans-serif;
+  font-size: 13px;
+  position: relative;
+  top: 35%;
+}
+
+#indexinfo .uslugiprograms .container .row .col-md-3 .blockoverlay a:before {
+  content: url(../img/plus.png);
+  position: relative;
+  top: 7px;
+  margin-right: 12px;
+}
+
+#indexinfo .uslugiprograms .container .row .col-md-3:hover a {
+  visibility: visible;
+}
+
+#indexinfo .uslugiprograms .container .row .col-md-3:hover .littleprogtext h1 {
+  color: #0d82d3;
+}
+
+#indexinfo .uslugiprograms .container .row .col-md-3 .littleprogtext {
+  background-color: white;
+  border: 1px solid #c7c7c7;
+  height: 70px;
+  display: table;
+  width: 100%;
+}
+
+#indexinfo .uslugiprograms .container .row .col-md-3 .littleprogtext h1 {
+  display: table-cell;
+  position: relative;
+  font-family: sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+  margin: 0 auto;
+  /*width: 90%;*/
+  transition: .4s;
+  vertical-align: middle;
+  text-transform: none;
+  padding: 2px 10px;
+}
+
+#indexinfo .col-sm-6 {
+  margin: 10px 0 10px 0;
+}
+
+/* Через учебу */
+.ucheba {
+  margin-bottom: 50px;
+  padding-bottom: 35px;
+}
+
+.ucheba h2 {
+  font-family: sans-serif;
+  font-size: 14px;
+  color: #838383;
+}
+
+.ucheba .rightpic {
+  float: right;
+  padding-left: 30px;
+  padding-bottom: 20px;
+}
+
+.ucheba p {
+  font-family: sans-serif;
+  font-size: 14px;
+  margin: 0;
+}
+
+.ucheba .video {
+  text-align: center;
+  padding: 40px 0 40px 0;
+}
+
+.ucheba .video iframe {
+  width: 50%;
+}
+
+.ucheba li {
+  padding: 0 0 15px 0;
+}
+
+.ucheba .recommendedcollege {
+  list-style-type: none;
+  padding: 0;
+}
+
+.ucheba .recommendedcollege li {
+  width: 33%;
+  display: inline-block;
+}
+
+.ucheba .recommendedcollege li:before {
+  content: url(../img/beforea.png);
+  margin-right: 10px;
+  position: relative;
+  bottom: 3px;
+}
+
+.ucheba .recommendedcollege li a {
+  font-family: sans-serif;
+  color: #0d82d3;
+  font-size: 18px;
+}
+
+/* Страница Канады */
+.canadapage .container {
+  text-align: center;
+}
+
+.canadapage .container h3 {
+  font-family: sans-serif;
+  font-size: 25px;
+  margin: 0;
+}
+
+.canadapage .container h4 {
+  font-family: sans-serif;
+  font-size: 14px;
+  margin: 0;
+  padding: 0 0 20px 0;
+}
+
+.canadapage .container .row {
+  text-align: left;
+  padding-top: 50px;
+}
+
+.canadapage .container .row p {
+  font-family: sans-serif;
+}
+
+.canadapage .container .row .col-md-4 {
+  padding: 35px 0 35px 0;
+}
+
+.canadapage .container .row h5 {
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+.canadapage .container .row .col-md-5 {
+  padding-bottom: 40px;
+}
+
+.canadapage .container .row .col-md-5 img {
+  margin-top: 24px;
+  width: 100%;
+}
+
+.canadapage .container .row .col-md-6 #map {
+  margin-top: 130px;
+  width: 100%;
+}
+
+.canadapage .container .row .col-md-6 img {
+  width: 100%;
+}
+
+.canadapage .container .row .col-md-6 h1 {
+  margin-top: 35px;
+  margin-bottom: 50px;
+}
+
+.canadapage .container .row .col-md-6 h4 {
+  font-family: sans-serif;
+  font-size: 18px;
+  color: #6a6a6a;
+  padding: 25px 0 25px 0;
+}
+
+.canadapage .container .row .col-md-6 p {
+  font-size: 14px;
+}
+
+.canadapage .container .row .answerquestion {
+  padding-top: 60px;
+}
+
+.canadapage .container .row .answerquestion h4 {
+  padding-bottom: 0;
+}
+
+.canadapage .container .row .answerquestion h5 {
+  margin-bottom: 15px;
+}
+
+.canadapage .col-sm-6 {
+  padding-top: 20px;
+}
+
+.canadapage .col-sm-6 img {
+  width: 100%;
+}
+
+/* Контакты */
+.contacts img {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.contacts p {
+  line-height: 30px;
+  width: 100%;
+}
+
+.contacts .worktime {
+  padding-left: 25px;
+  width: 100%;
+  display: inline-block;
+}
+
+.contacts .worktime h5 {
+  font-family: sans-serif;
+  font-size: 14px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-right: 0;
+}
+
+.contacts .worktime p {
+  font-family: sans-serif;
+  margin: 8px 0 8px 0;
+}
+
+.contacts .worktime p span {
+  font-family: sans-serif;
+}
+
+.contacts .contactinfo p {
+  width: 100%;
+  line-height: 15px;
+}
+
+.contacts .contactinfo p span {
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+.contacts .contactform {
+  background-color: rgb(10, 117, 140);
+  text-align: center;
+  padding-top: 15px;
+  margin-top: 30px;
+  padding-bottom: 20px;
+  -webkit-box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.contacts span{
+	display: inline-block;
+	/*width: 94%;
+	margin: 0 15px 25px 15px;*/
+}
+.contacts span.your-message{
+	width: 95%;
+}
+.contacts .col-md-6{
+	margin-bottom: 20px;
+	padding: 0 20px;
+}
+
+.contacts .contactform input {
+  display: inline-block;
+  width: 94%;
+  
+  padding: 0 15px 0 15px;
+  outline: none;
+  border-radius: 2px;
+  border: 1px solid #bebebe;
+  line-height: 30px;
+}
+img.ajax-loader{
+	width: 30px;
+	margin-top: 30px;
+}
+span.wpcf7-not-valid-tip {
+	font-size: 8px;
+}
+.contacts .contactform textarea {
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.contacts .contactform button, input.wpcf7-form-control.wpcf7-submit {
+  width: 40%;
+  min-width: 80px;
+  padding: 0px;
+  margin: 30px 15px 15px 0;
+  float: right;
+}
+
+.contacts .maps {
+  margin: 50px 0 50px 0;
+}
+
+.contacts .maps img {
+  width: 100%;
+}
+
+.contacts .otherconsuls h2 {
+  font-size: 25px;
+  font-family: sans-serif;
+  margin: 0;
+  margin-bottom: 35px;
+}
+
+.contacts .otherconsuls span {
+  font-family: Roboto-Regular;
+}
+
+.contacts .otherconsuls .worktime {
+  vertical-align: bottom;
+  width: 100%;
+  padding-top: 55px;
+}
+
+.contacts .otherconsuls .worktime p {
+  line-height: 18px;
+}
+
+.contacts h4 {
+  font-size: 25px;
+  font-family: sans-serif;
+  margin: 0 0 35px 25px;
+}
+
+.contacts .countries .israel {
+  display: inline-block;
+  width: 24%;
+  text-align: center;
+}
+
+.contacts .countries .israel p {
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+  font-family: sans-serif;
+  font-size: 11px;
+}
+
+.contacts .countries .ukraine {
+  display: inline-block;
+  width: 20%;
+  text-align: center;
+}
+
+.contacts .countries .ukraine p {
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+  font-family: sans-serif;
+  font-size: 11px;
+}
+
+.contacts .countries .georgia {
+  display: inline-block;
+  width: 20%;
+  text-align: center;
+}
+
+.contacts .countries .georgia p {
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+  font-family: sans-serif;
+  font-size: 11px;
+}
+
+.contacts .countries .russia {
+  display: inline-block;
+  width: 20%;
+  text-align: center;
+}
+
+.contacts .countries .russia p {
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+  font-family: sans-serif;
+  font-size: 11px;
+}
+
+/* Страница Ontario */
+.ontario .container {
+  text-align: center;
+}
+
+.ontario .container ul {
+  padding-left: 15px;
+}
+
+.ontario .container .col-md-7 {
+  padding-left: 0;
+}
+
+.ontario .container .col-md-7 p {
+  font-size: 14px;
+  font-family: sans-serif;
+  line-height: 17px;
+}
+
+.ontario .container .col-md-7 p span {
+  font-weight: bold;
+}
+
+.ontario .container h3 {
+  font-family: sans-serif;
+  font-size: 25px;
+  margin: 0;
+}
+
+.ontario .container h4 {
+  font-family: sans-serif;
+  font-size: 14px;
+  margin: 0;
+  padding: 0 0 20px 0;
+}
+
+.ontario .container .row {
+  text-align: left;
+  padding-top: 50px;
+}
+
+.ontario .container .row p {
+  font-size: 14px;
+  font-family: sans-serif;
+  line-height: 17px;
+}
+
+.ontario .container .row p span {
+  font-family: sans-serif;
+}
+
+.ontario .container .row .col-md-4 {
+  padding: 0 0 35px 0;
+}
+
+.ontario .container .row h5 {
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+.ontario .container .row .col-md-5 {
+  padding-bottom: 40px;
+}
+
+.ontario .container .row .col-md-5 img {
+  margin-top: 15px;
+  width: 100%;
+}
+
+.ontario .container .row .col-md-6 #map {
+  margin-top: 130px;
+  width: 100%;
+}
+
+.ontario .container .row .col-md-6 img {
+  width: 100%;
+}
+
+.ontario .container .row .col-md-6 h1 {
+  margin-top: 35px;
+  margin-bottom: 50px;
+}
+
+.ontario .container .row .col-md-6 h4 {
+  font-family: sans-serif;
+  font-size: 18px;
+  color: #6a6a6a;
+  padding: 2px 0 20px 0;
+}
+
+.ontario .container .row .col-md-6 p {
+  font-size: 14px;
+}
+
+.ontario .col-xs-12 {
+  display: none;
+}
+
+/* Работа в Канаде */
+.workcanada .italicfont p {
+  font-family: sans-serif;
+}
+
+.workcanada .italicfont p span {
+  font-family: sans-serif;
+}
+
+.workcanada p span {
+  font-family: sans-serif;
+}
+
+.workcanada .col-md-5 img {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.workcanada .col-md-7 iframe {
+  padding-top: 50px;
+  width: 100%;
+}
+
+.workcanada .text h2 {
+  font-family: sans-serif;
+  font-size: 18px;
+  padding-top: 60px;
+}
+
+.workcanada button {
+  width: 180px;
+  height: 30px;
+  background-color: #de1829;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding-right: 20px;
+  font-family: sans-serif;
+  font-size: 12px;
+  margin-top: 18px;
+}
+
+.workcanada button:before {
+  content: url(../img/strelkabutton.png);
+  padding: 0 20px 0 10px;
+}
+
+.workcanada .col-md-3 {
+  height: auto;
+  margin-bottom: 0;
+  margin-top: 25px;
+}
+
+.workcanada .col-md-3 img {
+  width: 100%;
+  margin-top: 0;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
+.workcanada .col-md-3 .blockoverlay {
+  text-align: center;
+  height: 70%;
+  background: rgba(13, 130, 211, 0.5);
+  transition: .4s;
+  position: absolute;
+  width: calc(100% - 30px);
+  top: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.workcanada .col-md-3 .blockoverlay a {
+  visibility: hidden;
+  color: white;
+  font-family: sans-serif;
+  font-size: 13px;
+  position: relative;
+  top: 35%;
+}
+
+.workcanada .col-md-3 .blockoverlay a:before {
+  content: url(../img/plus.png);
+  position: relative;
+  top: 7px;
+  margin-right: 12px;
+}
+
+.workcanada .col-md-3:hover a {
+  visibility: visible;
+}
+
+.workcanada .col-md-3:hover .blockoverlay {
+  opacity: 1;
+}
+
+.workcanada .col-md-3:hover .littleprogtext h1 {
+  color: #0d82d3;
+}
+
+.workcanada .col-md-3 .littleprogtext {
+  background-color: white;
+  border: 1px solid #c7c7c7;
+  height: 70px;
+  display: table;
+  width: 100%;
+  padding-left: 10px;
+  padding-top: 7px;
+  cursor: pointer;
+}
+
+.workcanada .col-md-3 .littleprogtext h1 {
+  display: table-cell;
+  position: relative;
+  font-family: sans-serif;
+  font-size: 17px;
+  margin: 0 auto;
+  width: 90%;
+  transition: .4s;
+  vertical-align: middle;
+}
+
+/* Требуються */
+#fblike {
+  font-size: 12px;
+  line-height: 30px;
+  background-color: #4e67af;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+#fblike:before {
+  content: url(../img/fb.png);
+  position: relative;
+  top: 5px;
+  padding: 0 15px 0 10px;
+}
+
+.need img.first_img {
+  float: left;
+  margin-bottom: 20px;
+}
+
+.need p {
+  font-size: 16px;
+  width: 80%;
+  margin: 10px 0 10px 0;
+}
+
+.need p span {
+  font-family: sans-serif;
+}
+
+.need ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+.need ul li {
+  padding-bottom: 10px;
+}
+
+/* Требуються , полная */
+.work p span {
+  font-family: sans-serif;
+}
+
+.work .row {
+  padding-top: 30px;
+}
+
+.work .col-md-4 .needwork {
+  border: 1px solid #eeeeee;
+  padding-bottom: 20px;
+  cursor: pointer;
+  display: table;
+  width: 100%;
+}
+
+.work .col-md-4 .needwork img {
+  width: 100%;
+  height: 265px;
+}
+
+.work .col-md-4 .needwork h4 {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-size: 18px;
+  font-family: sans-serif;
+  transition: .5s;
+  height: 30px;
+}
+
+.work .col-md-4 .needwork p {
+  width: 92%;
+  margin: 0 auto;
+  margin-bottom: 25px;
+  font-size: 14px;
+  min-height: 140px;
+}
+
+.work .col-md-4 .needwork a {
+  margin-left: 15px;
+}
+
+.work .col-md-4:hover h4 {
+  color: #0d82d3;
+}
+
+.work .col-sm-6 {
+  margin-top: 15px;
+}
+
+/* Учеба в Канаде */
+.study h1 {
+  padding-bottom: 15px;
+}
+
+.study p {
+  padding-top: 15px;
+}
+
+.study .col-md-4 .needwork {
+  border: 1px solid #eeeeee;
+  padding-bottom: 20px;
+  cursor: pointer;
+  display: table;
+  width: 100%;
+}
+
+.study .col-md-4 .needwork img {
+  width: 100%;
+  height: 265px;
+}
+
+.study .col-md-4 .needwork h4 {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-size: 18px;
+  font-family: sans-serif;
+  transition: .5s;
+  height: 20px;
+}
+
+.study .col-md-4 .needwork p {
+  width: 92%;
+  margin: 0 auto;
+  margin-bottom: 25px;
+  font-size: 14px;
+  min-height: 140px;
+}
+
+.study .col-md-4 .needwork a {
+  margin-left: 15px;
+}
+
+.study .col-md-4:hover h4 {
+  color: #0d82d3;
+}
+
+.study .col-sm-6 {
+  margin-top: 20px;
+}
+/*
+.study .col-xs-12 {
+  display: none;
+}
+*/
+/* Федеральная программа */
+.federal .paddings {
+  padding: 10px 0 10px 0;
+}
+
+.federal p {
+  font-size: 13.5px;
+}
+
+.federal p span {
+  font-family: sans-serif;
+}
+
+.federal .col-md-5 img {
+  margin-top: 10px;
+  width: 100%;
+}
+
+.federal ul {
+  list-style-type: none;
+  padding: 0;
+}
+@media screen and (max-width: 1100px) {
+  .work .col-md-5 img {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .ucheba .rightpic {
+    display: none !important;
+  }
+  .video {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .ucheba .recommendedcollege li {
+    width: 100%;
+  }
+  
+  .h2{font-size: 20px;}
+} 
+@media screen and (max-width: 560px) {
+#indexinfo .uslugiprograms .container .row .col-md-3 {
+  height: auto;
+  width: 100%;
+#indexinfo .col-md-9 button {
+  height: 50px;
+  width: 90%;
+  }
+}

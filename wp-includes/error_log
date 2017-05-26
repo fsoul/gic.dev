@@ -1,0 +1,2 @@
+[09-Mar-2017 09:03:56 UTC] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/giccanada/public_html/wp-includes/rss-functions.php on line 8
+[25-Mar-2017 17:50:10 UTC] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/giccanada/public_html/wp-includes/registration-functions.php on line 7

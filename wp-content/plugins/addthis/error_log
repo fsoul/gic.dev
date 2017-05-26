@@ -1,0 +1,2 @@
+[02-Mar-2017 19:46:02 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/giccanada/public_html/wp-content/plugins/addthis/addthis_post_metabox.php on line 100
+[13-Apr-2017 00:24:47 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/giccanada/public_html/wp-content/plugins/addthis/addthis_post_metabox.php on line 100

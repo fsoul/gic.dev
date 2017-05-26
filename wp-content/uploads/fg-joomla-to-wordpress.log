@@ -1,0 +1,38 @@
+=== START import 2016-02-06 17:02:57 ===
+Содержимое WordPress удалено
+[COUNT-TOTAL]78 elements to import
+[COUNT]10 categories processed
+[COUNT]1 category processed
+11 категорий перенесено
+[COUNT]10 posts processed
+[COUNT]10 posts processed
+[COUNT]10 posts processed
+[COUNT]10 posts processed
+[COUNT]10 posts processed
+[COUNT]10 posts processed
+[COUNT]6 posts processed
+[COUNT]0 posts processed
+66 материалов перенесено
+137 медиафайлов перенесено
+[COUNT]2 categories processed
+2 ссылки категории импортируемых
+[COUNT]1 web link processed
+1 веб-ссылки импортированы
+Не забудьте модифицировать внутренние линки.
+IMPORT COMPLETE
+=== END import 2016-02-06 17:03:12 ===
+
+=== START modify_links 2016-02-06 17:03:16 ===
+386 линков модифицировано
+=== END modify_links 2016-02-06 17:03:31 ===
+
+=== START modify_links 2016-02-07 12:03:35 ===
+0 линков модифицировано
+=== END modify_links 2016-02-07 12:03:35 ===
+
+=== START test_database 2016-02-27 18:40:11 ===
+Успешно соединено с базой данных Joomla
+Joomla данных найдено:<br />9 категорий<br />46 элементы<br />1 веб-ссылка<br />
+[ERROR] База данных Joomla содержит несколько пользователей. Вам нужна <a href="http://www.fredericgilles.net/fg-joomla-to-wordpress/" target="_blank">премиум-версию</a> для их импорта.
+=== END test_database 2016-02-27 18:40:11 ===
+
